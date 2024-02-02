@@ -1,0 +1,1 @@
+gcc -Wall -Wextra -Os -g -static -Wl,--gc-sections -ffunction-sections -fdata-sections -std=c17 main.c i2c.c -o lis3mdltr_test

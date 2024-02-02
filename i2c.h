@@ -1,5 +1,4 @@
-#ifndef I2C_HEADER_H
-#define I2C_HEADER_H
+#pragma once
 
 #include <stdint.h>
 
@@ -19,5 +18,3 @@ status_t i2c_write(
     uint8_t register_address,
     uint16_t length,
     uint8_t *buffer);
-
-#endif
